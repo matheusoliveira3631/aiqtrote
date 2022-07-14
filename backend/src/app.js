@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import router from './controllers/index'
+import { fRouter as router } from "./routes/index.js"
 //import frontUrl from './config/urls'
 
 const app = express();
